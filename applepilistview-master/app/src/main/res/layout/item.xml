@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="MainText"
+            android:id="@+id/item_maintv"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="subText"
+            android:id="@+id/item_subtv"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:text="contentdel"
+        android:id="@+id/item_contentdel"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:text="del"
+        android:id="@+id/item_itemdel"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
